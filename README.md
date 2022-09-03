@@ -1,8 +1,8 @@
 # SpaceChallenge
 
-In this project, you will build a simulation that will help us with our mission to Mars!
+Java OOP project given in CPE207 Object Oriented Programming
 
-The mission is to send a list of items (Habitats, bunkers, food supplies, and rovers) to Mars, but we need to run some simulations first to pick the correct fleet of rockets.We've already designed 2 rocket prototypes, but we need your help to design and run some simulations to help us decide which type to use.
+The mission is to send a list of items (Habitats, bunkers, food supplies, and rovers) to Mars, but we need to run some simulations first to pick the correct fleet of rockets.We've already designed 2 rocket prototypes, but we will need to run some simulations to help us decide which type to use.
 
 <br>
 <br>
@@ -44,9 +44,8 @@ Chance of landing crash = 8% * (cargo carried / cargo limit)
 
 Phase-1 <br>
 This phase is meant to send building equipment and construction material
-to help build the colony. In the resources tab, you will find a text file that contains the list of all
-items that we need to send called 'Phase-1.txt'. Each line in the file also contains the item name and 
-its Each line in the file contains the item name as well as its weight in Kgs.
+to help build the colony. In the main file you will find resources which will be sent to the Mars.
+The file contains the item name as well as its weight in Kgs. It saves these items into a .txt file and fetch it back to run simulations.
 <br>
 At least 18 rockets should be landed to send all of the materials.
 
