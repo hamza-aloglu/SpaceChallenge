@@ -22,21 +22,17 @@ public class Main {
         items.add(item);
         items.add(item);
 
-        item = new Item("BuildingTools", 5000);
+        item = new Item("BuildingTools", 3000);
         items.add(item);
         items.add(item);
-
-        item = new Item("BuildingTools", 2000);
         items.add(item);
-
-        item = new Item("BuildingTools", 1000);
         items.add(item);
-
-        item = new Item("BuildingTools", 5000);
+        items.add(item);
+        items.add(item);
+        items.add(item);
+        items.add(item);
         items.add(item);
 
-        item = new Item("BuildingTools", 6000);
-        items.add(item);
 
         item = new Item("ShelterEquipment", 5000);
         items.add(item);
@@ -44,7 +40,7 @@ public class Main {
         item = new Item("ConstructionEquipment", 5000);
         items.add(item);
 
-        item = new Item("Plants", 1000);
+        item = new Item("Plants", 1100);
         items.add(item);
 
         item = new Item("Steel", 8000);
@@ -53,7 +49,7 @@ public class Main {
         item = new Item("Books", 1000);
         items.add(item);
 
-        item = new Item("Water", 5000);
+        item = new Item("Water", 8000);
         items.add(item);
 
         // Saving these items into a file.

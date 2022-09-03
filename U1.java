@@ -6,7 +6,7 @@ public class U1 extends Rocket implements Serializable {
 
     public U1() {
         super.weight = 10;
-        super.cost = 10;
+        super.cost = 100;
         super.maxWeight = 18;
     }
 
